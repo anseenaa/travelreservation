@@ -1,0 +1,50 @@
+/* Author:Anseena A Sharafudeen */
+body {
+    background-image: url("../images/Travel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex {
+    display: flex;
+    gap: 15px;
+}
+.bdr {
+    border: 2px;
+    text-align: right;
+    width: 250px;
+}
+.center {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 1px 5px 0px;
+    background-color: rgba(127, 212, 255, 0.529);
+}
+.star::after {
+    content: "*";
+    color: rgb(231, 9, 9);
+}
+
+.hello {
+    width: 50%;
+    margin-top: 20%;
+    color: blue;
+    background-color: rgba(173, 216, 230, 0.496);
+}
+@media screen and (max-width: 576px) {
+    body {
+        background-image: none;
+        background-color: lightblue;
+        margin: 0;
+        text-align: center;
+    }
+    .center {
+        background-color: lightblue;
+        box-shadow: 0px 0px 0px 0px;
+        margin: 0;
+    }
+    .hello {
+        background-image: none;
+        background-color: lightblue;
+    }
+}
